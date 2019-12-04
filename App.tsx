@@ -8,12 +8,25 @@
  * @format
  */
 
-import React from 'react';
-import LoginScreen from './src/Screens/Login';
+import React, {useState, useEffect} from 'react';
+import AppContainer from './src/Navigators/AppNavigator';
+import NavigatorService from './src/Navigators/NavigationService'
 
 const App = () => {
+  const [navigator, setNavigator] = useState({});
+  
+  useEffect(() => {
+    if (navigator) {
+        NavigatorService.setNavigator(navigator);
+    }
+  }, [navigator])
+  
   return (
-    <LoginScreen/>
+    <AppContainer
+    ref={nav => {
+      setNavigator(nav);
+    }}
+    />
   );
 };
 
