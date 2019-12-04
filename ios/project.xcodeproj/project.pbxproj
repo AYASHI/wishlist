@@ -21,6 +21,8 @@
 		EF2BA634983B28A603DECD35 /* libPods-project-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B9FD4CCEDEE48676851293 /* libPods-project-tvOS.a */; };
 		1F0C75C641114F3EBAB82736 /* DroidKufi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0A18F8E2B142FDBB9B13FC /* DroidKufi-Bold.ttf */; };
 		19CBB746652B4FEB9A1EFADE /* DroidKufi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221191407C1741BDADDFE2D0 /* DroidKufi-Regular.ttf */; };
+		1E094FBD19D7448CB757B6C0 /* DroidArabicKufi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70C4EF3F84524849A9C41CFF /* DroidArabicKufi-Bold.ttf */; };
+		24E483FB69DA493B99F2B5CF /* DroidArabicKufi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC9FE84204D842D5B88CB7A8 /* DroidArabicKufi.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		6F0A18F8E2B142FDBB9B13FC /* DroidKufi-Bold.ttf */ = {isa = PBXFileReference; name = "DroidKufi-Bold.ttf"; path = "../src/Assets/Fonts/DroidKufi-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		221191407C1741BDADDFE2D0 /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; name = "DroidKufi-Regular.ttf"; path = "../src/Assets/Fonts/DroidKufi-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70C4EF3F84524849A9C41CFF /* DroidArabicKufi-Bold.ttf */ = {isa = PBXFileReference; name = "DroidArabicKufi-Bold.ttf"; path = "../src/Assets/Fonts/DroidArabicKufi-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC9FE84204D842D5B88CB7A8 /* DroidArabicKufi.ttf */ = {isa = PBXFileReference; name = "DroidArabicKufi.ttf"; path = "../src/Assets/Fonts/DroidArabicKufi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,8 @@
 			children = (
 				6F0A18F8E2B142FDBB9B13FC /* DroidKufi-Bold.ttf */,
 				221191407C1741BDADDFE2D0 /* DroidKufi-Regular.ttf */,
+				70C4EF3F84524849A9C41CFF /* DroidArabicKufi-Bold.ttf */,
+				EC9FE84204D842D5B88CB7A8 /* DroidArabicKufi.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -354,6 +360,8 @@
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				1F0C75C641114F3EBAB82736 /* DroidKufi-Bold.ttf in Resources */,
 				19CBB746652B4FEB9A1EFADE /* DroidKufi-Regular.ttf in Resources */,
+				1E094FBD19D7448CB757B6C0 /* DroidArabicKufi-Bold.ttf in Resources */,
+				24E483FB69DA493B99F2B5CF /* DroidArabicKufi.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

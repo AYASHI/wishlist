@@ -57,6 +57,8 @@
 	<array>
 		<string>DroidKufi-Bold.ttf</string>
 		<string>DroidKufi-Regular.ttf</string>
+		<string>DroidArabicKufi-Bold.ttf</string>
+		<string>DroidArabicKufi.ttf</string>
 	</array>
 </dict>
 </plist>

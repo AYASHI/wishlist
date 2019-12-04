@@ -19,8 +19,6 @@ const LoginScreen = () => {
   }
     return (
         <View style={styles.container}>
-            <Text>Hello</Text>
-            <Spacer/>
             <Button title={'Login'} onPress={login}/>
         </View>
     )

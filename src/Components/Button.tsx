@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, TouchableOpacity, StyleSheet } from 'react-native'
+import Label from './Label';
 interface IProps {
     onPress: ()=>void,
     title: string
@@ -8,7 +9,7 @@ interface IProps {
 const Button = (props: IProps) => {
     return (
         <TouchableOpacity onPress={props.onPress} style= {styles.container}>
-            <Text>{props.title}</Text>
+            <Label text={props.title}/>
         </TouchableOpacity>
     )
 }
@@ -16,6 +17,13 @@ const Button = (props: IProps) => {
 const styles = StyleSheet.create({
     container: {
         height: 44,
+        width: 150,
+        backgroundColor: '#3766A3',
+        justifyContent:'center',
+        alignItems: 'center',
+        paddingStart: 16,
+        paddingEnd: 16,
+        borderRadius: 5
     }
 })
 

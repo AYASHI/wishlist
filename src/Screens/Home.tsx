@@ -5,13 +5,14 @@ import NavigatorService from '../Navigators/NavigationService';
 import Screens from '../Navigators/Screens';
 
 const HomeScreen = () => {
+
     const onPress = () => {
-        NavigatorService.navigate(Screens.Login)
+        NavigatorService.push(Screens.Details)
     }
+
     return (
         <View style={styles.container}>
-            <Text>Home</Text>
-            <Button title={'Back to Login'} onPress={onPress}/>
+            <Button title={'Show Details'} onPress={onPress}/>
         </View>
     )
 }

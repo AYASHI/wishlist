@@ -1,16 +1,14 @@
-import React from 'react'
-import { Text, StyleSheet } from 'react-native'
-interface IProps {
-    text: string
-}
-const Label = (props: IProps) => {
+import React from 'react';
+import { Text, StyleSheet } from 'react-native';
+
+const Label = (props) => {
     const styles = StyleSheet.create({
         text: {
-            fontFamily: ''
+            fontFamily: 'DroidArabicKufi-Bold'
         }
     })
     return (
-    <Text>{props.text}</Text>
+    <Text style={styles.text}>{props.text}</Text>
     )
 }
 
