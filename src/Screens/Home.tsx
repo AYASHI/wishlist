@@ -3,9 +3,10 @@ import { View, Text, StyleSheet } from 'react-native';
 import Button from '../Components/Button'
 import NavigatorService from '../Navigators/NavigationService';
 import Screens from '../Navigators/Screens';
+import api from 'src/Api/api';
+import { LOGIN } from 'src/Api/constants';
 
 const HomeScreen = () => {
-
     const onPress = () => {
         NavigatorService.push(Screens.Details)
     }

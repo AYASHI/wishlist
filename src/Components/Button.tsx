@@ -9,7 +9,7 @@ interface IProps {
 const Button = (props: IProps) => {
     return (
         <TouchableOpacity onPress={props.onPress} style= {styles.container}>
-            <Label text={props.title}/>
+            <Label text={props.title} color={'white'}/>
         </TouchableOpacity>
     )
 }
