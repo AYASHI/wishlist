@@ -3,13 +3,14 @@ import { Text, TouchableOpacity, StyleSheet } from 'react-native'
 import Label from './Label';
 interface IProps {
     onPress: ()=>void,
-    title: string
+    title: string,
+    bold?: boolean
 }
 
 const Button = (props: IProps) => {
     return (
         <TouchableOpacity onPress={props.onPress} style= {styles.container}>
-            <Label text={props.title} color={'white'}/>
+            <Label text={props.title} color={'white'} bold={props.bold}/>
         </TouchableOpacity>
     )
 }
@@ -17,8 +18,8 @@ const Button = (props: IProps) => {
 const styles = StyleSheet.create({
     container: {
         height: 44,
-        width: 150,
-        backgroundColor: '#3766A3',
+        width: '100%',
+        backgroundColor: '#00ccbb',
         justifyContent:'center',
         alignItems: 'center',
         paddingStart: 16,

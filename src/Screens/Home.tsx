@@ -8,18 +8,19 @@ import { LOGIN } from 'src/Api/constants';
 
 const HomeScreen = () => {
     const onPress = () => {
-        NavigatorService.push(Screens.Details)
+        NavigatorService.push(Screens.Add)
     }
 
     return (
         <View style={styles.container}>
-            <Button title={'Show Details'} onPress={onPress}/>
+            <Button bold={true} title={'Let\'s Start'} onPress={onPress} />
         </View>
     )
 }
 const styles = StyleSheet.create({
     container:{
         flex: 1,
+        padding: 16,
         justifyContent:'center',
         alignItems: 'center'
     }
