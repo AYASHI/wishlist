@@ -11,6 +11,7 @@
 import React, {useState, useEffect} from 'react';
 import AppContainer from './src/Navigators/AppNavigator';
 import NavigatorService from './src/Navigators/NavigationService'
+import DeviceInfo from 'react-native-device-info';
 
 const App = () => {
   const [navigator, setNavigator] = useState({});
@@ -19,6 +20,7 @@ const App = () => {
     if (navigator) {
         NavigatorService.setNavigator(navigator);
     }
+    console.log('DeviceInfo',DeviceInfo.getUniqueId())
   }, [navigator])
   console.disableYellowBox = true
   return (

@@ -4,7 +4,8 @@ enum Screens  {
     SignUp = 'SignUp',
     Splash = 'Splash',
     List = 'List',
-    Add = 'Add'
+    Add = 'Add',
+    Share = 'Share'
 }
 
 export default Screens;

@@ -6,7 +6,7 @@ import Screens from '../Navigators/Screens';
 import api from 'src/Api/api';
 import { LOGIN } from 'src/Api/constants';
 
-const HomeScreen = () => {
+const HomeScreen = (props) => {
     const onPress = () => {
         NavigatorService.push(Screens.Add)
     }

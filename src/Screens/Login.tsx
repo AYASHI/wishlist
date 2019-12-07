@@ -19,6 +19,7 @@ const LoginScreen = () => {
   const storeData = async (accessToken:any) => {
     try {
       await AsyncStorage.setItem('accessToken', JSON.stringify(accessToken));
+      await AsyncStorage.setItem('name', JSON.stringify(usernameOrEmail));
       console.log('Saved data') 
       NavigatorService.navigate(Screens.Home)
     } catch (error) {
