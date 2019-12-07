@@ -20,11 +20,11 @@ const App = () => {
         NavigatorService.setNavigator(navigator);
     }
   }, [navigator])
-  
+  console.disableYellowBox = true
   return (
     <AppContainer
     ref={nav => {
-      setNavigator(nav);
+      setNavigator(nav!);
     }}
     />
   );

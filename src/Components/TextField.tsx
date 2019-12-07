@@ -24,6 +24,7 @@ const TextField = (props: IProps) => {
 const styles = StyleSheet.create({
     container: {
         width: '100%',
+        backgroundColor: 'white',
         height: 44,
         borderColor: '#9a9a9a',
         borderWidth: 0.5,
